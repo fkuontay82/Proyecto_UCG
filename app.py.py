@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import libreria.funciones as lf
+import libreria_funciones as lf
 
 st.title("Proyecto final UCG")
 st.sidebar.title("Parámetros")
