@@ -13,7 +13,7 @@ for uploaded_file in uploaded_files:
     st.write(df)
 
 monto = st.number_input ("Ingrese el monto:", min_value = 0, max_value = 10000, value = 1000)
-interes = st.number_input ("Ingrese interes:",min_value = 0.0, max_value = 1, value = 0.10)
+interes = st.number_input ("Ingrese interes:", min_value = 0.0, max_value = 1, value = 0.10)
 anios = st.number_input ("Ingrese el numero de años del prestamo:", value = 1)
 numero_pagos = st.number_input ("Ingrese el numero de pagos anuales:", value = 12)
 
